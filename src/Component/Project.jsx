@@ -20,7 +20,7 @@ const projects = [
         img: furniture,
         title: "Furniture",
         description: "This is a web design project focused on responsive layouts and modern UI principles.",
-        link: "https://furniture-web-phi.vercel.app/"
+        link: "https://furni-craft-web-app.vercel.app/"
     },
     {
         img: healthhub,
