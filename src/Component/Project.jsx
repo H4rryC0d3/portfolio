@@ -11,7 +11,7 @@ import todolist from "../assets/Todolist.png";
 
 const projects = [
     {
-        img: foodiespot, // Use imported variable
+        img: foodiespot,
         title: "FoodieSpot",
         description: "FoodieSpot is a full-stack web application built with the MERN stack, designed to provide a seamless and dynamic food discovery experience for users.",
         link: "https://foodie-spot-kappa.vercel.app/"
@@ -38,7 +38,7 @@ const projects = [
         img: portfolio,
         title: "Portfolio",
         description: "Portfolio is a responsive web application built with React.js, showcasing my skills, projects, and experiences in an interactive and visually appealing way.",
-        link: "https://personal-portfolios-three.vercel.app/"
+        link: "https://hpadiyar.vercel.app/"
     },
     {
         img: todolist,
@@ -55,9 +55,15 @@ const Projects = () => {
             <div className="project-container">
                 {projects.map((project, index) => (
                     <div className="project-box" key={index}>
-                        <img src={project.img} alt={`${project.title} Screenshot`} />
+                        {/* Image Container with Hover Effect */}
+                        <div className="image-container">
+                            <img src={project.img} alt={`${project.title} Screenshot`} />
+                            <div className="overlay">
+                                <h4>{project.title}</h4>
+                            </div>
+                        </div>
+                        {/* Description and Button Outside */}
                         <div className="project-layer">
-                            <h4>{project.title}</h4>
                             <p>{project.description}</p>
                             <div className="project-buttons">
                                 <a href={project.link} target="_blank" rel="noopener noreferrer">
