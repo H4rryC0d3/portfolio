@@ -13,19 +13,19 @@ const projects = [
     {
         img: foodiespot, // Use imported variable
         title: "FoodieSpot",
-        description: "This is a web design project focused on responsive layouts and modern UI principles.",
+        description: "FoodieSpot is a full-stack web application built with the MERN stack, designed to provide a seamless and dynamic food discovery experience for users.",
         link: "https://foodie-spot-kappa.vercel.app/"
     },
     {
         img: furniture,
         title: "Furniture",
-        description: "This is a web design project focused on responsive layouts and modern UI principles.",
+        description: "Furniture Website is a responsive web application built with React.js, offering a seamless browsing experience for exploring and purchasing stylish furniture.",
         link: "https://furni-craft-web-app.vercel.app/"
     },
     {
         img: healthhub,
         title: "HealthHub",
-        description: "This project focuses on creating modern, responsive websites with emphasis on UX/UI design.",
+        description: "HealthHub is a responsive web application built with HTML, CSS, and JavaScript, designed to manage patient records and appointments efficiently.",
         link: "https://health-hub-khaki.vercel.app/"
     },
     {
@@ -37,7 +37,7 @@ const projects = [
     {
         img: portfolio,
         title: "Portfolio",
-        description: "This is a web design project focused on responsive layouts and modern UI principles.",
+        description: "Portfolio is a responsive web application built with React.js, showcasing my skills, projects, and experiences in an interactive and visually appealing way.",
         link: "https://personal-portfolios-three.vercel.app/"
     },
     {
